@@ -20,6 +20,9 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow(){
+    public void mustThrow() throws Exception{
+        int a = 1;
+        int b = 0;
+        int sum = a / b;
     }
 }
